@@ -7,18 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kudos</title>
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.2/css/all.css' integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns'
-        crossorigin='anonymous'>
-
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/template.css">
+    <link rel="stylesheet" href="./assets/css/theme.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
 </head>
 
 <body>
+
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-2">
+	<a class="navbar-brand" href="#">Light text</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarColor02">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#" title="Current breakpoint tier">
+					Tier	 
+					<span class="d-xl-inline d-none">XL</span>
+					<span class="d-lg-inline d-xl-none d-none">LG</span>
+					<span class="d-md-inline d-lg-none d-none">MD</span>
+					<span class="d-sm-inline d-md-none d-none">SM</span>
+					<span class="d-inline d-sm-none">XS</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
     <div class="container">
         <div class="row">
         </div>
@@ -26,7 +53,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <button class="kudos-modal btn btn-info" type="button" data-toggle="modal" data-target="#kudoModal">Give Kudos</button>
+                        <button class="kudos-modal btn btn-outline-info" type="button" data-toggle="modal" data-target="#kudoModal">Give Kudos</button>
                     </div>
                 </div>
             </div>
@@ -76,11 +103,9 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery.js"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl"
-        crossorigin="anonymous"></script>
-
+    <script src="./assets/js/jquery-3.3.1.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/frontend.js"></script>
 </body>
 

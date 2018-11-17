@@ -1,25 +1,11 @@
-
-.title-header {
-    float: left;
-    width: 90%;
+.body {
+text-align: center;
 }
 
-.title-icon {
-    float: right;
-}
-
-.card {
+.title {
     text-align: center;
 }
-
-.card-body {
-    text-align: center;
-}
-
-#text-body {
-    /* height: 200%; */
-}
-
-.form-area {
-  margin: 5px 0;
+.tofrom {
+    position: relative;
+    left: 20%;
 }

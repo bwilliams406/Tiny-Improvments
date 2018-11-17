@@ -7,7 +7,9 @@ module.exports = function (app) {
         const usersId = req.body.usersId;
         const newEntry = {
           title: req.body.title,
-          body: req.body.body
+          body: req.body.body,
+          from: req.body.from,
+          to: req.body.to
         }
     
         db.kudos.create(newEntry)
